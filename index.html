@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=neHmFUhe0AqCO5BiKL8lFsVYZjTd2kLy"></script>
+<script defer src="./js/index.js"></script><link href="./css/index.css" rel="stylesheet"></head>
+<body>
+<!--网站顶部-->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="col-3 logo">
+                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            </div>
+            <div class="col-xs-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="col-9">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">首页</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">关于我们</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">产品与服务</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">新闻中心</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">企业文化</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">加入我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--banner轮播图-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="#">
+                <img src="img/banner.png" class="d-block w-100" alt="..." width="100%" >
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a href="#">
+                <img src="img/banner.png" class="d-block w-100" alt="..." width="100%" >
+            </a>
+        </div>
+        <div class="carousel-item">
+            <a>
+                <img src="img/banner.png" class="d-block w-100" alt="..." width="100%" >
+            </a>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--公司介绍-->
+<div class="container present">
+    <div class="row">
+        <div class="card-body col-6">
+            <div class="who">
+                <h5 class="card-title">WHO WE ARE</h5>
+                <span>/我们是谁？</span>
+            </div>
+            <h6>无忧设计 无限灵感</h6>
+            <hr/>
+            <p class="card-text">千图网（Thousands of customers）是提供设计素材下载、创意设计分享的网络平台，是中国免费素材最多的网站之一。</p>
+            <p class="card-text">该网提供矢量图、psd源文件、图片素材、网页素材、3D模型素材、手机APP素材、ppt、画册、图标热门主流素材免费下载服务，以其独特的定位和全新免费运营模式，处于素材网站领先地位。</p>
+            <p class="card-text">千图网（Thousands of customers）是提供设计素材下载、创意设计分享的网络平台，是中国免费素材最多的网站之一。</p>
+            <p class="card-text">该网提供矢量图、psd源文件、图片素材、网页素材、3D模型素材、手机APP素材、ppt、画册、图标热门主流素材免费下载服务，以其独特的定位和全新免费运营模式，处于素材网站领先地位。</p>
+        </div>
+        <div class="col-6 img">
+            <a href="#"><img src="img/img.png" alt="..."></a>
+        </div>
+    </div>
+</div>
+<!--公司分类-->
+<div class="container sort">
+    <div class="row">
+        <div class="col-md-3 cols">
+            <a href="#">
+                <span class="iconfont icon-xinwen"></span>
+                <div class="introduce">
+                    <h5>公司新闻</h5>
+                    <p>Company news</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 cols">
+            <a href="#">
+                <span class="iconfont icon-yewu"></span>
+                <div class="introduce">
+                    <h5>业务介绍</h5>
+                    <p>Business introduction</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 cols">
+            <a href="#">
+                <span class="iconfont icon-qiye"></span>
+                <div class="introduce">
+                    <h5>企业文化</h5>
+                    <p>corporate culture</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 cols">
+            <a href="#">
+                <span class="iconfont icon-men"></span>
+                <div class="introduce">
+                    <h5>合作伙伴</h5>
+                    <p>cooperative partner</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<!--公司新闻-->
+<div class="news">
+    <div class="container">
+        <div class="row text-center">
+            <h5>公司新闻</h5>
+            <p>CENTRES  NEWS</p>
+        </div>
+    </div>
+    <hr/>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 card">
+                <a href="#"><img src="img/img2.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h5 class="card-title">千图网始终以爱设计的用户为中心</h5>
+                    <p class="card-text effects">千图网（Thousands of customers）是提供设计素材下载、创意设计分享的网络平台，是中国免费素材最多的网站之一。</p>
+                    <span class="left">2021.06.26</span><span class="right">MORE >></span>
+                </div>
+            </div>
+            <div class="col-4 card">
+                <a href="#"><img src="img/img2.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h5 class="card-title">千图网始终以爱设计的用户为中心</h5>
+                    <p class="card-text effects">千图网（Thousands of customers）是提供设计素材下载、创意设计分享的网络平台，是中国免费素材最多的网站之一。</p>
+                    <span class="left">2021.06.26</span><span class="right">MORE >></span>
+                </div>
+            </div>
+            <div class="col-4 card">
+                <a href="#"><img src="img/img2.png" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                    <h5 class="card-title">千图网始终以爱设计的用户为中心</h5>
+                    <p class="card-text effects">千图网（Thousands of customers）是提供设计素材下载、创意设计分享的网络平台，是中国免费素材最多的网站之一。</p>
+                    <span class="left">2021.06.26</span><span class="right">MORE >></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--业务介绍-->
+<div class="container business">
+    <div class="bus">
+        <a href="#"><img src="img/img3.png"></a>
+    </div>
+    <div class="row g-0 bg-light position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4 imgs">
+            <a href="#"><img src="img/img4.png" alt="..."></a>
+        </div>
+        <div class="col-md-6 p-4 ps-md-0 font">
+            <h5 class="mt-0">千图网市场部</h5>
+            <p>千图网免费为大家提供设计素材下载、创意设计分享的网络平台，面向各种行业用户需求，提供国内最多的免费素材资源，完善的筛选搜索和热门精品素材，方便用户快速找到满意素材。</p>
+        </div>
+    </div>
+    <div class="row g-0 bg-light position-relative">
+        <div class="col-md-6 p-4 ps-md-0 fonts">
+            <h5 class="mt-0">千图网市场部</h5>
+            <p>千图网免费为大家提供设计素材下载、创意设计分享的网络平台，面向各种行业用户需求，提供国内最多的免费素材资源，完善的筛选搜索和热门精品素材，方便用户快速找到满意素材。</p>
+        </div>
+        <div class="col-md-6 mb-md-0 p-md-4 imgs2">
+            <a href="#"><img src="img/img4.png" alt="..."></a>
+        </div>
+    </div>
+</div>
+<!--企业文化-->
+<div class="position">
+    <div class="container">
+        <div class="row">
+            <div class="corporate col-md-4">
+                <div class="corporates">
+                    <h5 class="card-title">企业文化</h5>
+                    <span>corporate culture</span>
+                </div>
+                <hr/>
+                <p class="mb-1">企业愿景</p>
+                <small class="text-muted">诚信为本 客户至上 求实创新 互利共赢</small>
+                <p class="mb-1">企业目标</p>
+                <small class="text-muted">让顾客更满意 让员工更幸福 让团队更和谐<br/></small>
+                <small class="text-muted">让社会更认可 让企业更强大</small>
+                <p class="mb-1">企业精神</p>
+                <small class="text-muted">爱国 孝道 诚信 团结 拼搏 创新</small>
+                <p class="mb-1">经营宗旨</p>
+                <small class="text-muted">诚信为本 客户至上 求实创新 互利共赢</small>
+                <p class="mb-1">服务理念</p>
+                <small class="text-muted">微笑 专业 高效 精诚 满意</small>
+            </div>
+            <div class="col-md-8">
+                <div id="container"></div>
+                <script>
+                    var map = new BMapGL.Map("container");
+                    var point = new BMapGL.Point(106.328712,29.61824);
+                    map.centerAndZoom(point, 15);
+                    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<!--合作伙伴-->
+<div class="container partner">
+    <div class="row text-center">
+        <div class="col">
+            <h5>合作伙伴</h5>
+            <p>cooperative partner</p>
+        </div>
+    </div>
+    <a href="#">
+        <div class="logo text-center">
+            <img src="img/logo2.png" alt="...">
+            <img src="img/logo2.png" alt="...">
+            <img src="img/logo2.png" alt="...">
+            <img src="img/logo2.png" alt="...">
+            <img src="img/logo2.png" alt="...">
+        </div>
+    </a>
+</div>
+<!--首页底部-->
+<div class="bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 weixin">
+                <img src="img/weixin.jpg" alt="...">
+            </div>
+            <div class="col-md-3 phone">
+                <span class="iconfont icon-youzhengfuwu"></span>
+                <div class="introduce">
+                    <h5>邮政编码：</h5>
+                    <p>000000</p>
+                </div>
+            </div>
+            <div class="col-md-3 phone">
+                <span class="iconfont icon-shouye"></span>
+                <div class="introduce">
+                    <h5>业务合作：</h5>
+                    <p>8888888888</p>
+                </div>
+            </div>
+            <div class="col-md-3 phone">
+                <span class="iconfont icon-24gl-telephone2"></span>
+                <div class="introduce">
+                    <h5>投诉电话：</h5>
+                    <p>888-88888888</p>
+                </div>
+            </div>
+            <p class="address">公司地址：XX省XX市XX区XX路与XX路交叉口南</p>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
